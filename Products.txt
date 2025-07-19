@@ -1,0 +1,2 @@
+101 Television 49999 18 20
+102 Grinder 5000 9 10
