@@ -2,7 +2,7 @@
 //and calculate the tax for the given salary.
 
 import java.util.Scanner;
-public class Q5 {
+public class CalculateTax {
 
     static void CalcOld (long salary) {
         double tax = 0L;
