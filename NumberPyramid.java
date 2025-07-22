@@ -1,6 +1,6 @@
 //Print pattern
 
-public class Q7 {
+public class NumberPyramid {
     static void makepattern(int n) {
 
         for(int r=0; r<n; r++) {
