@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Q14 {
+public class SortRedWhiteBlue {
 
     static void arrange(int arr[]) {
         int n = arr.length;
