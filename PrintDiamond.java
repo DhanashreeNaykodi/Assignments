@@ -1,6 +1,6 @@
 //Print pattern
 
-public class Q6 {
+public class PrintDiamond {
     static void MakePattern(int n) {
 
         for(int r=1; r<=n; r++) {
