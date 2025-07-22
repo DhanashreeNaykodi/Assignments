@@ -1,7 +1,7 @@
 //Spiral matrix
 
 import java.util.ArrayList;
-public class Q8 {
+public class SpiralMatrix {
 
     static void Pattern(int matrix[][]) {
         int rows = matrix.length;
