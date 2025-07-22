@@ -2,7 +2,7 @@
 //two numbers such that they add up to target.
 
 import java.util.Arrays;
-public class Q12 {
+public class TargetSum {
 
     public int[] find(int arr[], int target) {
 
@@ -29,7 +29,7 @@ public class Q12 {
         return res;
     }
     public static void main(String[] args) {
-        Q12 q = new Q12();
+        TargetSum q = new TargetSum();
         int arr[] = {1,3,5,6};
         System.out.println(Arrays.toString(q.find(arr, 11)));
     }
