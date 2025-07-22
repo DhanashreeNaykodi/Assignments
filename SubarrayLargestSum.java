@@ -1,6 +1,6 @@
 // Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
-public class Q13 {
+public class SubarrayLargestSum {
 
     static int Func(int arr[]) {
         int sum = 0;
