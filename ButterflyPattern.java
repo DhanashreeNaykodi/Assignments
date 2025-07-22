@@ -1,6 +1,6 @@
 //Print pattern
 
-public class Q11 {
+public class ButterflyPattern {
     static void PrintPattern(int n) {
 
         for(int r=1; r<=n; r++) {
