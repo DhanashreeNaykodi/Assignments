@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Q2 {
+public class Average {
     static void calc(int a, int b, int c) {
         System.out.println("Average is : " + (a+b+c)/3);
     }
