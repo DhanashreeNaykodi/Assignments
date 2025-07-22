@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Q1 {
+public class AreaSquare {
     static int calc(int n) {
         return n*n;
     }
