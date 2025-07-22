@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Q15 {
+public class QuadrupleSum {
     static void Quad(int arr[], int target) {
         Arrays.sort(arr);
         int n = arr.length;
@@ -34,29 +34,6 @@ public class Q15 {
         }
     }
 
-//    static void Quad(int arr[], int target) {
-//        Arrays.sort(arr);
-//        int n = arr.length;
-//        int left = 0;
-//        int right = n-1;
-//        int ind = 1;
-//
-//        while(left < right && ind < n) {
-//            int sum = arr[ind] + arr[left] + arr[right];
-//            int a = Math.abs(target-sum);
-//            if(Arrays.asList(arr).contains(a)) {
-//                System.out.println(arr[left] + " " + arr[ind] + " " + arr[right] + " " + a);
-//                break;
-//            }
-//            else if(sum < target) {
-//                left++;ind++;
-//            }
-//            else{
-//                right--;
-//            }
-//        }
-//        System.out.println("No quadruplets!");
-//    }
     public static void main(String[] args) {
         int arr[] = {5,3,8,9,1,2,10,52};
         int target = 23;
