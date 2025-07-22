@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Q9 {
+public class LowercaseCount {
 
     public static void main(String[] args) {
         try {
