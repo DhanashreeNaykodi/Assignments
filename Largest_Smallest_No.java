@@ -1,6 +1,6 @@
 //Find largest and small number in an array
 
-public class Q3 {
+public class Largest_Smallest_No {
     static void find(int arr[]) {
 
         int maxi = arr[0];
