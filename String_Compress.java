@@ -2,7 +2,7 @@
 //Input: -> "aaabbcccdd"	Output: -> "a3b2c3d2"
 
 import java.util.*;
-public class Q4 {
+public class String_Compress {
 
 //    ONLY WORKS FOR CONSECUTIVE ELEMENTS
 //    static String compress(String s){
