@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Q16 {
+public class MergeIntervals {
 
     public static int[][] mergeIntervals(int[][] intervals) {
         ArrayList<int[]> list = new ArrayList<>(Arrays.asList(intervals));
