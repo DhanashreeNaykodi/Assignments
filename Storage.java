@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Storage {
     private String name;
-    public static ArrayList<String> list = new ArrayList<>();
+    private static ArrayList<String> list = new ArrayList<>();
 
     public void insert(String name) throws DataExistsException{
         if(list.contains(name)) {
