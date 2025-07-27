@@ -10,7 +10,6 @@ public class DataExistsDriver {
 
         } catch (DataExistsException e) {
             System.out.println(e);
-            System.out.println(e.getList());
             System.out.println(e.getMessage());
         }
     }
