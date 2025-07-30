@@ -3,33 +3,60 @@ import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 public class HashSet_TreeSet_LinkedHashSet {
+    HashSet<Integer> hashSet = new HashSet<>();
+    LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
+    TreeSet<Integer> treeSet = new TreeSet<>();
+
+    public void addinHashset(int[] items) {
+        for (int i : items) {
+            hashSet.add(i);
+        }
+    }
+
+    public void addinLinkedHashSet(int[] items) {
+        linkedHashSet = new LinkedHashSet<>(hashSet);
+        for (int i : items) {
+            linkedHashSet.add(i);
+        }
+    }
+
+    public void addinTreeSet(int[] items) {
+        for (int i : items) {
+            treeSet.add(i);
+        }
+    }
+
+    public void printHashSet() {
+        System.out.println("HashSet contents:");
+        for (Integer element : hashSet) {
+            System.out.println("Element: " + element);
+        }
+    }
+
+    public void printLinkedHashSet() {
+        System.out.println("LinkedHashSet contents:");
+        for (Integer element : linkedHashSet) {
+            System.out.println("Element: " + element);
+        }
+    }
+
+    public void printTreeSet() {
+        System.out.println("TreeSet contents:");
+        for (Integer element : treeSet) {
+            System.out.println("Element: " + element);
+        }
+    }
 
     public static void main(String[] args) {
+        int items[] = {63,902,63,572,882};
 
+        HashSet_TreeSet_LinkedHashSet obj = new HashSet_TreeSet_LinkedHashSet();
+        obj.addinHashset(items);
+        obj.addinLinkedHashSet(items);
+        obj.addinTreeSet(items);
 
-        HashSet<Integer> hashset2 = new HashSet<>();
-        hashset2.add(63);
-        hashset2.add(902);
-        hashset2.add(63);
-        hashset2.add(572);
-        hashset2.add(882);
-        System.out.println("HashSet : " + hashset2);
-
-        LinkedHashSet<Integer> linkedhashset = new LinkedHashSet<>();
-        linkedhashset.add(34);
-        linkedhashset.add(32);
-        linkedhashset.add(33);
-        linkedhashset.add(33);
-        System.out.println("LinkedHashSet : " + linkedhashset);
-
-
-        TreeSet<Integer> treeset = new TreeSet<>();
-        treeset.add(3);
-        treeset.add(2);
-        treeset.add(1);
-        treeset.add(4);
-        treeset.add(3);
-        System.out.println("TreeSet : " + treeset);
-
+        obj.printHashSet();
+        obj.printLinkedHashSet();
+        obj.printTreeSet();
     }
 }
