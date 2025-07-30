@@ -12,10 +12,10 @@ public class SortListUsingLambda_Student {
         student.add(new Student("Simran",18));
 
 
-        student.sort((a, b) -> a.getName().charAt(0) - b.getName().charAt(0));
+        student.sort((a, b) -> a.name.charAt(0) - b.name.charAt(0));
         System.out.println(student);
 
-        student.sort((a,b) -> a.getAge() - b.getAge());
+        student.sort((a,b) -> a.age - b.age);
         System.out.println(student);
     }
 }
