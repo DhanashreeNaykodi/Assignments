@@ -28,22 +28,22 @@ public class HashSet_TreeSet_LinkedHashSet {
 
     public void printHashSet() {
         System.out.println("HashSet contents:");
-        for (Integer element : hashSet) {
-            System.out.println("Element: " + element);
+        for (int i : hashSet) {
+            System.out.println("Element: " + i);
         }
     }
 
     public void printLinkedHashSet() {
         System.out.println("LinkedHashSet contents:");
-        for (Integer element : linkedHashSet) {
-            System.out.println("Element: " + element);
+        for (int i : linkedHashSet) {
+            System.out.println("Element: " + i);
         }
     }
 
     public void printTreeSet() {
         System.out.println("TreeSet contents:");
-        for (Integer element : treeSet) {
-            System.out.println("Element: " + element);
+        for (int i : treeSet) {
+            System.out.println("Element: " + i);
         }
     }
 
